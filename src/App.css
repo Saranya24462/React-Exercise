@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  padding-top: 10px;
+}
+.FilterApp {
+  text-align: center;
+  background-color: white;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.listdata {
+  text-align: left;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+#parent {
+  display: flex;
+}
+.col {
+  height: 100px;
+  background-color: #112432;
+  padding: 10px;
+  flex: 50%;
+}
+.col1 {
+  color: white;
+  height: 450px;
+  background-color: #112432;
+  padding: 10px;
+  display: inline-block;
+  border: double;
+  margin: 10px;
+}
+.coldata {
+  width: 25%;
+}
+.search {
+  width: 100%;
+  height: 100px;
+}
+.filterbutton {
+  height: 40px;
+  width: 200px;
+}
+.search-inner {
+  display: flex;
+}
+.list {
+  padding: 5px;
+}
+.header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: pink;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
