@@ -1,6 +1,21 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Instructions
+
+The project running on  (http://localhost:4000) to view it in your browser.
+
+Using Router
+
+Fetch All data Path - http://localhost:4000/
+
+Search Path - http://localhost:4000/search
+
+Filter by Gender- http://localhost:4000/filter
+
+Filter by Species - http://localhost:4000/FilterSpecies
+
+Sort Operation -  http://localhost:4000/sort
+
 
 ## Available Scripts
 
